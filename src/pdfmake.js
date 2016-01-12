@@ -4,7 +4,7 @@
 'use strict';
 
 var vfsDefault = require('../vfs-fonts/roboto.js');
-var PdfPrinter = require('pdfmake');
+var PdfPrinter = require('../node_modules/pdfmake/build/pdfmake.js');
 var saveAs = require('../libs/fileSaver');
 var vfs = require('./virtual-fs');
 
