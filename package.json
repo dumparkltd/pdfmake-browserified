@@ -15,7 +15,9 @@
   },
   "author": "xErik",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "pdfmake": "https://github.com/rdoc101/pdfmake"
+  },
   "keywords": [
     "pdfmake",
     "browserify",
@@ -31,7 +33,6 @@
     "connect": "^3.3.5",
     "minifyify": "^7.0.1",
     "open": "0.0.5",
-    "pdfmake": "https://github.com/rdoc101/pdfmake",
     "serve-static": "^1.9.3"
   },
   "browserify": {
